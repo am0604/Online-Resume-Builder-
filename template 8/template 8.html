@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>template 8</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style8.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="img-area">
+        <input type="file" id="imageInput" accept="image/*">
+        <div id="imageContainer"></div>
+        <script src="js8/script8.js"></script>
+      </div>
+      <h1 contenteditable="true">Jason Holder</h1>
+      <h3 contenteditable="true">Full-Stack Web Developer</h3>
+    </div>
+
+    <div class="main">
+      <div class="left">
+        <h2>Personal Information</h2>
+        <p contenteditable="true"><strong>Name:</strong> Jason Holder</p>
+        <p contenteditable="true"><strong>Age:</strong> 30</p>
+        <p contenteditable="true"><strong>Email:</strong> jholder@email.com</p>
+        <p contenteditable="true"><strong>Phone:</strong> 000 000 0000</p>
+        <h2>Skills</h2>
+        <ul>
+          <li contenteditable="true">HTML/CSS</li>
+          <li contenteditable="true">HTML/CSS</li>
+          <li contenteditable="true">JavaScript</li>
+          <li contenteditable="true">React</li>
+          <li contenteditable="true">Node.js</li>
+          <li contenteditable="true">SQL</li>
+        </ul>
+        <h2>Education</h2>
+        <h3 contenteditable="true">B.Sc in Computer Science</h3>
+        <p contenteditable="true">University of XYZ, 2014-2018</p> <br>
+        <h3 contenteditable="true">M.Sc in Computer Science</h3>
+        <p contenteditable="true">University of XYZ, 2019-2020</p>
+        <button>Download</button>
+      </div>
+
+      <div class="right">
+        <h2>Work Experience</h2>
+        <h3 contenteditable="true">XYZ Company</h3>
+        <p contenteditable="true"><strong>Position:</strong> Software Developer</p>
+        <p contenteditable="true"><strong>Duration:</strong> 2018-2022</p>
+        <ul>
+          <li contenteditable="true">Developed and maintained web applications using React, Node.js, and SQL</li>
+          <li contenteditable="true">Implemented responsive design using CSS flexbox and media queries</li>
+          <li contenteditable="true">Collaborated with cross-functional teams to deliver high-quality software products
+          </li>
+        </ul> <br>
+        <h3 contenteditable="true">ABC Company</h3>
+        <p contenteditable="true"><strong>Position:</strong> Web Developer</p>
+        <p contenteditable="true"><strong>Duration:</strong> 2016-2018</p>
+        <ul>
+          <li contenteditable="true">Created and maintained websites using HTML, CSS, and JavaScript</li>
+          <li contenteditable="true">Optimized website performance and user experience using best practices</li>
+          <li contenteditable="true">Worked with clients to understand their needs and deliver custom solutions</li>
+        </ul>
+      </div>
+    </div>
+    <script>var btn = document.querySelector("button");
+      btn.onclick = () => {
+        window.print();
+      }
+    </script>
+  </div>
+
+
+</body>
+
+</html>
